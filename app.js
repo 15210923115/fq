@@ -15,4 +15,4 @@ app.all('*',function (req, res) {
     res.send('hello world');
 });
 
-app.listen(8866);
+app.listen(8866,'0.0.0.0');
